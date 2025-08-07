@@ -236,7 +236,7 @@ def push_notification(dates):
     for d in dates:
         msg = msg + d.get("date") + "; "
     send_notification(msg)
-
+# Main program loop that continuously checks and reschedules appointments
 def main_loop():
     retry_count = 0
     first_try = True
