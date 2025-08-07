@@ -3,7 +3,7 @@ from sendgrid.helpers.mail import Mail
 from configparser import ConfigParser
 import os
 
-# Get the absolute path to the config.ini file
+# Get the absolute path to the config.ini 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 config_file = os.path.join(current_dir, '..', 'config', 'config.ini')
 
