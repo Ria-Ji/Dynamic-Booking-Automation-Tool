@@ -2,4 +2,4 @@ requests
 selenium
 sendgrid
 webdriver-manager
-configparser
+configparserr
